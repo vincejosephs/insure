@@ -1,0 +1,141 @@
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    margin: 0;
+    color: hsl(270, 9%, 17%);
+    font-size: 1em;
+    font-family: 'Karla', sans-serif;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+    height: 60px;
+}
+
+.logo {
+    float: left;
+    margin: 20px 0;
+}
+
+.nav-bar {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.menu-item, .outlined {
+    display: inline-block;
+    height: 40px;
+    margin: 8px 0;
+    padding: 0 20px;
+    color: hsl(270, 9%, 17%, 0.5);
+    font-size: .9rem;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color: hsl(270, 9%, 17%);
+}
+
+.outlined {
+    border: 2px solid;
+    color: hsl(270, 9%, 17%);
+}
+
+.nav-bar .outlined {
+    border-color: hsl(270, 9%, 17%);
+    color: hsl(270, 9%, 17%);
+}
+
+.nav-bar .outlined:hover {
+    background-color: hsl(270, 9%, 17%);
+    color: #ffffff;
+}
+
+.welcome {
+    height: 90vh;
+    background-color: hsl(256, 26%, 20%);
+    color: #ffffff;
+}
+
+.welcome-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: left;
+    clear: right;
+    position: relative;
+}
+
+hr {
+    display: inline-block;
+    margin: 50px 0 35px;
+    width: 15%;
+    border: 1px solid #ffffff;
+}
+
+.welcome h1 {
+    font-size: 4.2rem;   
+    line-height: 1;
+}
+
+.welcome p {
+    font-size: 1.05rem;
+    line-height: 1.5;
+    margin: 25px 0;
+}
+
+.welcome .outlined {
+    border-color:#ffffff;
+    color: #ffffff;
+    width: 120px;
+    margin: 20px 0;
+}
+
+.welcome .outlined:hover {
+    background-color: #ffffff;
+    color: hsl(256, 26%, 20%);
+}
+
+
+.image-intro {
+    width: 50%;
+    float: right;
+    margin: 50px 0 35px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
