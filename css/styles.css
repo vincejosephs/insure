@@ -1,4 +1,3 @@
-
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -15,29 +14,31 @@ body {
     font-family: 'Karla', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin: 0;
-    font-family: 'DM Serif Display', serif;
     font-weight: 400;
+    font-family: 'DM Serif Display', serif;
 }
 
 h1 {
-    font-size: 4.2rem;   
+    font-size: 4.2rem;
     line-height: 1;
 }
 
 h2 {
-    font-size: 2rem;   
+    font-size: 2rem;
     line-height: 1;
 }
 
 header {
-    width: 100%;
-    padding: 10px 0;
-    height: 60px;
-    z-index: 2;
-    background-color: #ffffff;
     position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 60px;
+    padding: 10px 0;
+    background-color: #ffffff;
 }
 
 .logo {
@@ -54,7 +55,8 @@ header {
     float: right;
 }
 
-.menu-item, .outlined {
+.menu-item,
+.outlined {
     display: inline-block;
     height: 40px;
     margin: 8px 0;
@@ -87,40 +89,41 @@ header {
 }
 
 .welcome {
+    position: relative;
+    top: 60px;
     height: 90vh;
     background-color: hsl(256, 26%, 20%);
     color: #ffffff;
-    position: relative;
-    top: 60px;
 }
 
 .welcome-content {
+    clear: right;
+    position: relative;
     width: 80%;
     margin: 0 auto;
     padding: 50px 0;
     text-align: left;
-    clear: right;
-    position: relative;
 }
 
 hr {
     display: inline-block;
-    margin: 50px 0 35px;
     width: 15%;
+    margin: 50px 0 35px;
     border: 1px solid #ffffff;
 }
 
 .welcome p {
+    margin: 25px 0;
     font-size: 1.05rem;
     line-height: 1.5;
-    margin: 25px 0;
 }
 
-.welcome .outlined, .cto .outlined {
-    border-color:#ffffff;
-    color: #ffffff;
+.welcome .outlined,
+.cto .outlined {
+    border-color: #ffffff;
     width: 120px;
     margin: 20px 0;
+    color: #ffffff;
 }
 
 .welcome .outlined:hover {
@@ -128,25 +131,24 @@ hr {
     color: hsl(256, 26%, 20%);
 }
 
-
 .image-intro {
-    width: 50%;
     float: right;
+    width: 50%;
     margin: 50px 0 35px 50px;
 }
 
 .intro-right {
     position: absolute;
-    right: 0;
     top: 0;
-    width: 30%;
+    right: 0;
     z-index: 1;
+    width: 30%;
 }
 
 .intro-left {
     position: absolute;
-    left: 0;
     top: 60vh;
+    left: 0;
 }
 
 .comparison {
@@ -168,8 +170,8 @@ hr {
 
 .comparison-item {
     display: inline-block;
-    margin: 0;
     width: 32%;
+    margin: 0;
 }
 
 .comparison-item img {
@@ -181,38 +183,26 @@ hr {
 }
 
 .cto {
+    position: relative;
+    margin-bottom: 100px;
+    padding: 70px;
     background-color: hsl(256, 26%, 20%);
     color: #ffffff;
-    position: relative;
-    padding: 70px;
-    margin-bottom: 100px;
 }
+
 .cto h1 {
-    font-size: 3.5rem;
     width: 53%;
+    font-size: 3.5rem;
 }
 
 .cto .outlined {
     float: right;
-    margin: 35px;
     z-index: 1;
+    margin: 35px;
 }
-
 
 .cto img {
     position: absolute;
     top: 0;
     right: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
