@@ -21,10 +21,23 @@ h1, h2, h3 {
     font-weight: 400;
 }
 
+h1 {
+    font-size: 4.2rem;   
+    line-height: 1;
+}
+
+h2 {
+    font-size: 2rem;   
+    line-height: 1;
+}
+
 header {
     width: 100%;
     padding: 10px 0;
     height: 60px;
+    z-index: 2;
+    background-color: #ffffff;
+    position: fixed;
 }
 
 .logo {
@@ -77,6 +90,8 @@ header {
     height: 90vh;
     background-color: hsl(256, 26%, 20%);
     color: #ffffff;
+    position: relative;
+    top: 60px;
 }
 
 .welcome-content {
@@ -95,18 +110,13 @@ hr {
     border: 1px solid #ffffff;
 }
 
-.welcome h1 {
-    font-size: 4.2rem;   
-    line-height: 1;
-}
-
 .welcome p {
     font-size: 1.05rem;
     line-height: 1.5;
     margin: 25px 0;
 }
 
-.welcome .outlined {
+.welcome .outlined, .cto .outlined {
     border-color:#ffffff;
     color: #ffffff;
     width: 120px;
@@ -125,8 +135,75 @@ hr {
     margin: 50px 0 35px 50px;
 }
 
+.intro-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+    z-index: 1;
+}
+
+.intro-left {
+    position: absolute;
+    left: 0;
+    top: 60vh;
+}
+
+.comparison {
+    position: relative;
+    top: 60px;
+    width: 80%;
+    height: 200vh;
+    margin: 45vh auto 0;
+}
+
+.comparison hr {
+    border-color: #909090;
+}
+
+.comparison-group {
+    width: 100%;
+    margin: 75px 0 150px;
+}
+
+.comparison-item {
+    display: inline-block;
+    margin: 0;
+    width: 32%;
+}
+
+.comparison-item img {
+    margin: 25px 0;
+}
+
+.compare-except {
+    margin: 0 1.65%;
+}
+
+.cto {
+    background-color: hsl(256, 26%, 20%);
+    color: #ffffff;
+    position: relative;
+    padding: 70px;
+    margin-bottom: 100px;
+}
+.cto h1 {
+    font-size: 3.5rem;
+    width: 53%;
+}
+
+.cto .outlined {
+    float: right;
+    margin: 35px;
+    z-index: 1;
+}
 
 
+.cto img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 
 
