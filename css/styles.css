@@ -237,6 +237,7 @@ footer .container {
     display: inline-block;
     width: 20%;
     margin: 0 2.35%;
+    vertical-align: top;
 }
 
 .foot-content h4 {
